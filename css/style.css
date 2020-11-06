@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.abtn , a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+.btn {
+    padding: 0.6rem 1.5rem;
+    border-width: 0.05rem;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#logo{
+    font-size: 1.5rem;
+}
+
+#header{
+    max-height: 120vh;
+    background-image: url(/img/bkimage.jpg); 
+}
+
+#header #header-nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    padding: 1.5rem;
+    border-bottom: 0.2px rgb(133, 133, 133) solid;
+  
+}
+
+#header #header-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    
+}
+
+.main-container{
+    margin: 0 auto;
+    max-width: 100vw;
+    max-height: 120vh;
+}
+
+/* .bg-img{
+    max-width: 100vw;
+    background-image: url(/img/bkimage2.jpg);
+    animation: homebook 6s ease-in-out 0s infinite normal none running;
+} */
+
+
+#main-container #showcase-section{
+    height:100vh;
+    width:100vw;
+    margin: 0 2rem;
+}
+
+.main-container #showcase-section{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    margin: 0 1rem;
+    align-items: center;
+    justify-items: center;
+    max-height: 120vh;
+}
+
+.main-container #showcase-section div{
+    max-width: 50%;
+    align-items: center;
+    justify-items: center;
+}
+
+.main-container #showcase-section #showcase-image{
+    transform: scale(0.75);
+}
+
+.main-container #showcase-section #showcase-words{
+    margin-left: 3rem;
+    max-width: auto;
+    max-height: auto;
+}
+
+.main-container li{
+    list-style-image: url(/img/tick.png);
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.7rem;
+    padding: 0.5rem 1.2rem;
+}
+
+.main-container h2{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin: 1.4rem 0;
+}
+
+
+.btn-start-here{
+    padding: 1rem 2.1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #418d83;
+    margin: 1rem;
+    font-size: 1rem;
+    color: white;
+}
+
+#products{
+    background-color: #e4f9f5;
+    max-height: auto;
+}
+#products #h3-div{
+    height: 5rem;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 5.6rem;
+    }
+
+.box{
+    height: 15rem;
+    max-width: 30rem;
+    background-color: rgb(255, 255, 255);
+    margin: 1.5rem 0.5rem;
+    border-radius: 5px;
+    box-shadow: 5px #888;
+    padding: 2rem;
+}
+
+.box h3{
+    padding: 0.5rem 0;
+}
+
+#product-boxes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5rem;
+    margin: 2rem;
+}
+
+#counter-section{
+    display: flex;
+    height: 10rem;
+    background-image: url(/img/bkimage.jpg);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#counter-section #counter-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#counter-section #counter-data .number{
+    font-size:  3rem;
+}
+
+
+#number-1{
+    color: #fe7e8a;
+}
+
+#number-2{
+    color: #ebc97a;
+}
+
+#number-3{
+    color: #4e6532;
+}
+
+#number-4{
+    color: #219988;
+}
+
+#counter-section #counter-data .words{
+    font-size: 1.3rem;
+    color: rgb(54, 54, 54)
+}
+
+.start-uploading {
+    height: 15rem;
+    background-color: #e4f9f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 12rem;
+}
+
+.start-uploading img{
+    transform: scale(0.5);
+}
+
+footer{
+    background-image: linear-gradient(to bottom left,#278c7d, #40514e);
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1rem; 
+    padding: 2em 0;   
+}
+
+footer a{
+    color: white;    
+}
+
+footer li{
+    margin-bottom: 1.2rem;    
+}
+
+
+.footer #social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+.footer #social-media img{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-around;
+    
+}
+
