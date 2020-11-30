@@ -10,6 +10,10 @@
     cursor: pointer;
 }
 
+a:visited{
+    text-decoration: none;
+}
+
 li{
     list-style: none;
 }
@@ -127,14 +131,14 @@ li{
     justify-content: center;
     text-align: center;
     font-size: 1.5rem;
-    padding-top: 5.6rem;
+    padding: 5.6rem 0;
     }
 
 .box{
     height: 15rem;
     max-width: 30rem;
     background-color: rgb(255, 255, 255);
-    margin: 1.5rem 0.5rem;
+    margin: 3rem 3rem;
     border-radius: 5px;
     box-shadow: 5px #888;
     padding: 2rem;
@@ -146,10 +150,17 @@ li{
 
 #product-boxes{
     display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+
+}
+
+#div1 #div2{
+    display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 5rem;
-    margin: 2rem;
+    flex-direction: column;
+    margin: 0 2rem;
 }
 
 #counter-section{
